@@ -1,6 +1,9 @@
 console.clear();
+
+//----make sure xmlhttprequest is installed in the local directoryy
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest
-url = "https://www.google.com/";
+
+//url = "https://www.google.com/";
 url = "https://www.zohoapis.in/crm/v2/functions/test1/actions/execute?auth_type=apikey&zapikey=1003.73537686ad12f499d4992c72edbadf50.1cc3ecfcac84ea35e128e51fd6dc1cb4";
 req = httpGet(url);
 
